@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #f0fdfa;
+  color: #111;
+  line-height: 1.6;
+}
+
+/* HERO */
+.hero {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #0f766e, #14b8a6);
+  display: flex;
+  align-items: center;
+  padding: 40px;
+  color: white;
+}
+
+.hero-content {
+  max-width: 900px;
+}
+
+.big-title {
+  font-size: 90px;
+  font-weight: 800;
+  line-height: 1;
+}
+
+.big-title span {
+  font-size: 60px;
+  font-weight: 600;
+}
+
+.badge {
+  margin-top: 15px;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+
+.edu-info {
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+/* SECTION */
+.container {
+  max-width: 1000px;
+  margin: auto;
+  padding: 80px 20px;
+}
+
+h2 {
+  margin-bottom: 25px;
+  font-size: 32px;
+  color: #0f766e;
+}
+
+/* GRID */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+/* CARD */
+.card {
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.05);
+  transition: 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 25px rgba(20, 184, 166, 0.3);
+}
+
+/* CONTACT */
+.contact {
+  background: #ccfbf1;
+}
+
+footer {
+  background: #111;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .big-title {
+    font-size: 50px;
+  }
+
+  .big-title span {
+    font-size: 35px;
+  }
+
+  .edu-info {
+    font-size: 16px;
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+}
